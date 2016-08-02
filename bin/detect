@@ -4,6 +4,6 @@ if [ -f $1/.buildpacks ]; then
   echo "Multipack"
   exit 0
 else
-  echo "no .buildpacks file"
+  echo "no .buildpacks file found in your application root directory."
   exit 1
 fi
